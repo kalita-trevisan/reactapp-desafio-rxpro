@@ -9,6 +9,10 @@ Este projeto foi feito inteiramente sobre o [React Js](https://github.com/facebo
 - React toastify
 - React confirm alert
 
+## Requisitos mínimos:
+* Node JS - LTS
+* Yarn
+
 ## Para instalar as dependencias:
 * `yarn`
 

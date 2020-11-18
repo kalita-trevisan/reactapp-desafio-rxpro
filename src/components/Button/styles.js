@@ -11,8 +11,9 @@ export const Container = styled.button`
     outline: 0;
     font-size: 1.2rem;
     transition: .3s ease-in-out;
+    flex: 1;
 
     &:hover {
-        background: #ffd000;
+        background: #ffc800;
     }
 `;

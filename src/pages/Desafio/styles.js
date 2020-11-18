@@ -20,3 +20,16 @@ export const Titulo = styled.h1`
     color: #f72585;
 `;
 
+export const ContainerButtons = styled.div`
+    display: flex;
+    flex-direction: row;
+
+    button:first-child {
+      margin-right: .5rem;
+    }
+    button:last-child {
+      margin-left: .5rem;
+    }
+`;
+
+

@@ -32,7 +32,10 @@ function Home() {
             <h2>
               Digite o seu nome:
             </h2>
+            <br />
             <input type="text" placeholder="Seu nome" onKeyUp={e => nome = e.target.value} />
+            <br />
+            <br />
             <div className="container-btns">
               <Button type="button" onClick={handleClickedNo}>
                 Cancelar

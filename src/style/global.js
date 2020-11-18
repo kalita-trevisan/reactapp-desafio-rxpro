@@ -10,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-size: 16px;
     font-family: 'Oswald', sans-serif !important;
-
     background-color: #7209b7;
 
     #root {
@@ -24,6 +23,16 @@ const GlobalStyle = createGlobalStyle`
       align-items: center;
     }
     
+    input[type=text] {
+      border: 1px solid #ccc;
+      flex: 1;
+      width: 100%;
+      border-radius: .4rem;
+      outline: 0;
+
+      padding: .5rem 1rem;
+    }
+
     .custom-ui {
       -webkit-box-shadow: 0px 0px 18px -6px rgba(0,0,0,0.75);
       -moz-box-shadow: 0px 0px 18px -6px rgba(0,0,0,0.75);

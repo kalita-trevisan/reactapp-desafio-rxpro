@@ -48,7 +48,7 @@ function Home() {
         resposta: false
       },
       {
-        pergunta: "Javascript é uma linguagem de marcação?",
+        pergunta: "Javascript é uma linguagem de programação?",
         resposta: false
       },
       {
@@ -83,7 +83,9 @@ function Home() {
             <h2>
               Ops! 🤦‍♀️ Que pena você errou esta pergunta.
             </h2>
-            <h3>O que deseja?</h3>
+            <br />
+            <h3>O que você deseja fazer?</h3>
+            <br />
             <div className="container-btns">
               <Button type="button" onClick={handleSair}>
                 Sair
